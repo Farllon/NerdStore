@@ -17,7 +17,7 @@ namespace NerdStore.Catalogo.Data.Repository
             _context = context;
         }
 
-        public IUnitOfWork IunitOfWork => _context;
+        public IUnitOfWork UnitOfWork => _context;
 
         public async Task<IEnumerable<Produto>> ObterTodos()
         {
