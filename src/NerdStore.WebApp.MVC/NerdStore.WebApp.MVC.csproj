@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <Folder Include="Views\AdminProdutos\" />
+    <Folder Include="Views\Vitrine\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
